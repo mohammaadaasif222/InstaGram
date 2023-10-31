@@ -28,6 +28,8 @@ function App() {
         console.error("Network error:", error);
       });
   
+      setUname('')
+      setPassword('')
   }
 
   return (
